@@ -1,0 +1,170 @@
+:root {
+    --grey: #282a35;
+    --light-grey: #4d4a5a;
+    --lighter-grey: #606580;
+    --green: #b3db82;
+    --blue: #6b72a3;
+    --purple: #a99eec;
+    --red: #ed6c89;
+    --yellow: #f9da78;
+    --turq: #43959d;
+}
+
+@font-face {
+    font-family: "FiraCode";
+    src: url(firacodenerdfont.ttf);
+}
+
+body,
+html {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    font-family: "FiraCode";
+    font-weight: medium;
+}
+
+#container {
+    display: grid;
+    grid-template-rows: auto 1fr;
+    height: 100%;
+}
+
+#statusbar {
+    background: var(--grey);
+    font-size: 90%;
+}
+
+#statusleft {
+    float: left;
+}
+
+#statusright {
+    float: right;
+}
+
+#statusbar span {
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+span a {
+    text-decoration: none;
+}
+
+.separator {
+    color: var(--light-grey);
+}
+
+#main {
+    background-image: url(mt\ taranaki.png);
+    background-size: 100vw;
+    background-position-y: 50%;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 10px;
+    padding: 10px;
+}
+
+#left {
+    width: 60vw;
+}
+
+#right {
+    display: grid;
+    grid-template-rows: auto auto;
+    gap: 10px;
+}
+
+.window {
+    background: var(--grey);
+    border: 3px solid var(--light-grey);
+    box-sizing: border-box;
+    height: 100%;
+    padding: 10px;
+    font-size: 1.01vw;
+    color: whitesmoke;
+}
+
+.nf {
+    font-size: 1vw;
+}
+
+.ascii {
+    color: black;
+    display: block;
+    white-space: pre;
+    letter-spacing: 0;
+    line-height: 1.4;
+    float: right;
+    height: 100%;
+}
+
+pre {
+    margin: 0;
+    float: left;
+}
+
+.window:hover {
+    border: 3px solid var(--lighter-grey);
+}
+
+.selected {
+    background-color: #353746;
+}
+
+.green {
+    color: var(--green) !important;
+}
+
+.blue {
+    color: var(--blue) !important;
+}
+
+.purple {
+    color: var(--purple) !important;
+}
+
+.yellow {
+    color: var(--yellow) !important;
+}
+
+.red {
+    color: var(--red) !important;
+}
+
+.white {
+    color: lightgrey !important;
+}
+
+.blackbg {
+    background: black;
+}
+
+.redbg {
+    background: var(--red);
+}
+
+.greenbg {
+    background: var(--green);
+}
+
+.yellowbg {
+    background: var(--yellow);
+}
+
+.bluebg {
+    background: var(--blue);
+}
+
+.purplebg {
+    background: var(--purple);
+}
+
+.turqbg {
+    background: var(--turq);
+}
+
+.whitebg {
+    background: whitesmoke;
+}
