@@ -8,6 +8,7 @@
     --red: #ed6c89;
     --yellow: #f9da78;
     --turq: #43959d;
+    --mobile-padding: 10px;
 }
 
 @font-face {
@@ -15,11 +16,25 @@
     src: url(firacodenerdfont.ttf);
 }
 
+#too-small {
+    display: none;
+    background-color: var(--grey);
+    color: whitesmoke;
+    padding: 5px;
+    font-size: 10px;
+    border: 3px solid var(--light-grey);
+}
+
+#screen-width {
+    color: red !important;
+}
+
 body,
 html {
     margin: 0;
     padding: 0;
-    height: 100vh;
+    margin: 0;
+    min-height: 100dvh;
     font-family: "FiraCode";
     font-weight: medium;
 }
@@ -27,7 +42,12 @@ html {
 #container {
     display: grid;
     grid-template-rows: auto 1fr;
-    height: 100%;
+    min-height: 100dvh;
+}
+
+a {
+    color: whitesmoke !important;
+    text-decoration: underline dotted whitesmoke 2px;
 }
 
 #statusbar {
@@ -70,6 +90,10 @@ span a {
     width: 60vw;
 }
 
+#kawaii {
+    width: 50%;
+}
+
 #right {
     display: grid;
     grid-template-rows: auto auto;
@@ -82,7 +106,7 @@ span a {
     box-sizing: border-box;
     height: 100%;
     padding: 10px;
-    font-size: 1.01vw;
+    font-size: 1.1vw;
     color: whitesmoke;
 }
 
@@ -167,4 +191,60 @@ pre {
 
 .whitebg {
     background: whitesmoke;
+}
+
+@media screen and (max-width: 1050px) {
+    #container {
+        grid-template-rows: 1fr;
+        max-height: 100dvh;
+    }
+
+    #statusbar,
+    #right {
+        display: none;
+    }
+
+    #main {
+        grid-template-columns: 1fr;
+        gap: 0;
+        box-sizing: border-box;
+        max-height: 100dvh;
+        padding: var(--mobile-padding);
+    }
+
+    #left,
+    .mainwindow {
+        width: 100%;
+        height: calc(100dvh - calc(2 * var(--mobile-padding)));
+        font-size: 12px;
+    }
+
+    .mainwindow {
+        overflow-y: scroll;
+    }
+
+    #kawaii {
+        width: 70%; /* optional, looks nicer on phones */
+    }
+}
+
+@media screen and (orientation: portrait) {
+    #main {
+        background-size: 100vh;
+        background-position-x: 50%;
+    }
+}
+
+@media screen and (max-width: 295px) {
+    #too-small {
+        display: block;
+    }
+
+    #left {
+        display: none;
+    }
+
+    .mainwindow {
+        display: none;
+    }
 }

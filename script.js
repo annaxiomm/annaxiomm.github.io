@@ -1,3 +1,5 @@
+// here be dragons (ignore my messy code please)
+
 const ascii = `<pre><span style="color:rgba(0,0,0,0)">@</span><span style="color:rgba(0,0,0,0)">@</span><span style="color:rgba(0,0,0,0)">@</span><span style="color:rgba(0,0,0,0)">@</span><span style="color:rgba(0,0,0,0)">@</span><span style="color:rgba(0,0,0,0)">@</span><span style="color:rgba(0,0,0,0)">@</span><span style="color:rgba(0,0,0,0)">@</span><span style="color:rgb(252,251,250)">.</span><span style="color:rgb(254,255,251)">.</span><span style="color:rgb(247,255,251)">.</span><span style="color:rgb(254,253,254)">.</span><span style="color:rgb(254,254,255)">.</span><span style="color:rgb(252,252,251)">.</span><span style="color:rgba(0,0,0,0)">@</span><span style="color:rgba(0,0,0,0)">@</span><span style="color:rgba(0,0,0,0)">@</span><span style="color:rgba(0,0,0,0)">@</span><span style="color:rgba(0,0,0,0)">@</span><span style="color:rgba(0,0,0,0)">@</span><span style="color:rgba(0,0,0,0)">@</span><span style="color:rgba(0,0,0,0)">@</span><span style="color:rgba(0,0,0,0)">@</span><span style="color:rgba(0,0,0,0)">@</span><span style="color:rgba(0,0,0,0)">@</span><span style="color:rgba(0,0,0,0)">@</span><span style="color:rgba(0,0,0,0)">@</span><span style="color:rgba(0,0,0,0)">@</span>
 <span style="color:rgba(0,0,0,0)">@</span><span style="color:rgba(0,0,0,0)">@</span><span style="color:rgba(0,0,0,0)">@</span><span style="color:rgba(0,0,0,0)">@</span><span style="color:rgba(0,0,0,0)">@</span><span style="color:rgba(0,0,0,0)">@</span><span style="color:rgba(0,0,0,0)">@</span><span style="color:rgba(0,0,0,0)">@</span><span style="color:rgb(255,254,253)">.</span><span style="color:rgb(253,253,251)">.</span><span style="color:rgb(0,144,4)">%</span><span style="color:rgb(5,139,4)">%</span><span style="color:rgb(254,253,253)">.</span><span style="color:rgb(255,254,255)">.</span><span style="color:rgb(255,255,253)">.</span><span style="color:rgb(255,251,253)">.</span><span style="color:rgba(0,0,0,0)">@</span><span style="color:rgba(0,0,0,0)">@</span><span style="color:rgba(0,0,0,0)">@</span><span style="color:rgba(0,0,0,0)">@</span><span style="color:rgba(0,0,0,0)">@</span><span style="color:rgba(0,0,0,0)">@</span><span style="color:rgba(0,0,0,0)">@</span><span style="color:rgba(0,0,0,0)">@</span><span style="color:rgba(0,0,0,0)">@</span><span style="color:rgba(0,0,0,0)">@</span><span style="color:rgba(0,0,0,0)">@</span><span style="color:rgba(0,0,0,0)">@</span>
 <span style="color:rgba(0,0,0,0)">@</span><span style="color:rgba(0,0,0,0)">@</span><span style="color:rgba(0,0,0,0)">@</span><span style="color:rgba(0,0,0,0)">@</span><span style="color:rgba(0,0,0,0)">@</span><span style="color:rgba(0,0,0,0)">@</span><span style="color:rgba(0,0,0,0)">@</span><span style="color:rgba(0,0,0,0)">@</span><span style="color:rgb(254,253,253)">.</span><span style="color:rgb(254,252,250)">.</span><span style="color:rgb(77,140,5)">?</span><span style="color:rgb(76,142,1)">?</span><span style="color:rgb(0,142,82)">%</span><span style="color:rgb(0,143,83)">?</span><span style="color:rgb(247,255,251)">.</span><span style="color:rgb(254,254,249)">.</span><span style="color:rgb(251,255,252)">.</span><span style="color:rgb(254,254,250)">.</span><span style="color:rgba(0,0,0,0)">@</span><span style="color:rgba(0,0,0,0)">@</span><span style="color:rgba(0,0,0,0)">@</span><span style="color:rgba(0,0,0,0)">@</span><span style="color:rgba(0,0,0,0)">@</span><span style="color:rgba(0,0,0,0)">@</span><span style="color:rgba(0,0,0,0)">@</span><span style="color:rgba(0,0,0,0)">@</span><span style="color:rgba(0,0,0,0)">@</span><span style="color:rgba(0,0,0,0)">@</span>
@@ -16,6 +18,67 @@ const ascii = `<pre><span style="color:rgba(0,0,0,0)">@</span><span style="color
 <span style="color:rgba(0,0,0,0)">@</span><span style="color:rgba(0,0,0,0)">@</span><span style="color:rgba(0,0,0,0)">@</span><span style="color:rgba(0,0,0,0)">@</span><span style="color:rgb(252,255,254)">.</span><span style="color:rgb(254,254,253)">.</span><span style="color:rgb(253,254,250)">.</span><span style="color:rgb(254,253,250)">.</span><span style="color:rgb(254,253,248)">.</span><span style="color:rgb(251,253,251)">.</span><span style="color:rgb(147,88,7)">?</span><span style="color:rgb(147,78,4)">%</span><span style="color:rgb(146,66,10)">%</span><span style="color:rgb(148,69,10)">%</span><span style="color:rgb(147,80,0)">%</span><span style="color:rgb(146,79,3)">%</span><span style="color:rgb(144,86,2)">?</span><span style="color:rgb(142,85,10)">?</span><span style="color:rgb(253,253,251)">.</span><span style="color:rgb(255,253,250)">.</span><span style="color:rgb(254,254,252)">.</span><span style="color:rgb(250,250,248)">.</span><span style="color:rgb(254,255,254)">.</span><span style="color:rgb(252,252,252)">.</span><span style="color:rgba(0,0,0,0)">@</span><span style="color:rgba(0,0,0,0)">@</span><span style="color:rgba(0,0,0,0)">@</span><span style="color:rgba(0,0,0,0)">@</span>
 <span style="color:rgba(0,0,0,0)">@</span><span style="color:rgba(0,0,0,0)">@</span><span style="color:rgba(0,0,0,0)">@</span><span style="color:rgba(0,0,0,0)">@</span><span style="color:rgba(0,0,0,0)">@</span><span style="color:rgba(0,0,0,0)">@</span><span style="color:rgba(0,0,0,0)">@</span><span style="color:rgba(0,0,0,0)">@</span><span style="color:rgb(254,254,254)">.</span><span style="color:rgb(254,255,251)">.</span><span style="color:rgb(255,252,252)">.</span><span style="color:rgb(252,255,255)">.</span><span style="color:rgb(252,255,255)">.</span><span style="color:rgb(251,255,255)">.</span><span style="color:rgb(253,255,255)">.</span><span style="color:rgb(251,255,255)">.</span><span style="color:rgb(250,255,255)">.</span><span style="color:rgb(254,253,255)">.</span><span style="color:rgb(255,252,253)">.</span><span style="color:rgb(255,253,255)">.</span><span style="color:rgba(0,0,0,0)">@</span><span style="color:rgba(0,0,0,0)">@</span><span style="color:rgba(0,0,0,0)">@</span><span style="color:rgba(0,0,0,0)">@</span><span style="color:rgba(0,0,0,0)">@</span><span style="color:rgba(0,0,0,0)">@</span><span style="color:rgba(0,0,0,0)">@</span><span style="color:rgba(0,0,0,0)">@</span></pre>
 `;
+
+const fortunes = [
+  "Hello, world.",
+  "There are 10 kinds of people: those who understand binary and those who don't.",
+  "Segmentation fault (core dumped).",
+  "Works on my machine.",
+  "One more feature won't hurt.",
+  "sudo make me a sandwich.",
+  "The best code is the code you don't have to write.",
+  "Never underestimate the bandwidth of a USB stick carried by a pigeon.",
+  "Weeks of programming can save you hours of planning.",
+  "640K ought to be enough for anybody.",
+  "rm -rf / is not a speedrun category.",
+  "Real programmers use tabs. Real debuggers don't care.",
+  "It's not a bug; it's an undocumented feature.",
+  "The compiler is trying its best.",
+  "Your code compiled first try. Suspicious.",
+  "Today's lucky number is 0xDEADBEEF.",
+  "The rubber duck believes in you.",
+  "You're probably overengineering this.",
+  "There is no place like 127.0.0.1.",
+  "Have you tried turning it off and on again?",
+  "There is no cloud. It's just someone else's computer.",
+  "Remember to commit before experimenting.",
+  "git push --force is a lifestyle choice.",
+  "A backup is worth more than an apology.",
+  "Undefined behaviour keeps life interesting.",
+  "The code you wrote six months ago was written by someone else.",
+  "Every TODO eventually becomes documentation.",
+  "If it ain't broke, someone will rewrite it in Rust.",
+  "The borrow checker has denied your request.",
+  "One does not simply finish a personal website.",
+  "ASCII art improves performance by at least 12%.",
+  "Powered by HTML, CSS, JavaScript, and hope.",
+  "Please do not feed the JavaScript.",
+  "Everything is a file. Except when it isn't.",
+  "Permission denied... I think?",
+  "You are visitor #" + Math.floor(Math.random() * 9000 + 1000),
+  "Hack Club made me build this.",
+  "Touching grass...",
+  "Your package manager has 47 available updates.",
+  "No ducks were harmed during debugging.",
+  "Today's build status: green.",
+  "The answer is 42.",
+  "It's dangerous to code alone. Take this: ☕",
+  "The README is always written last.",
+  "One day this website will have a blog.",
+  "Fun fact: this terminal isn't real.",
+  "Alias your mistakes as 'legacy code'.",
+  "Ctrl+Z doesn't work in real life.",
+  "Some assembly required.",
+  "Congratulations! You found the fortunes file.",
+  "Welcome to ~/homepage.",
+  "The source is probably on GitHub.",
+  "No cookies were baked in the making of this website.",
+  "This fortune intentionally left blank.",
+  "The cake is a lie.",
+  "Stay curious.",
+  "I swear I didn't use AI for this",
+  "Happy hacking!",
+];
 
 let startTime = 0;
 
@@ -51,6 +114,12 @@ function updateUptime() {
   document.getElementById("nf-uptime").innerText = uptime;
 }
 
+function updateFortune() {
+  let number = Math.floor(Math.random() * fortunes.length);
+  let fortune = fortunes[number];
+  document.getElementById("fortune").innerText = fortune;
+}
+
 function drawASCII() {
   document.getElementById("ascii").innerHTML = ascii;
 }
@@ -60,8 +129,15 @@ document.addEventListener("DOMContentLoaded", () => {
   updateClock();
   updateCPULoad();
   updateNeofetch();
+  updateFortune();
+  updateScreenWidth();
   startTime = Date.now();
 });
+
+function updateScreenWidth() {
+  var scwidth = document.querySelector("#screen-width");
+  scwidth.innerText = `${window.innerWidth}px`;
+}
 
 function updateCPULoad() {
   var load = document.querySelector("#cpuload");

@@ -20,7 +20,7 @@
                     <span class="separator">| </span>
                     <span class="purple">[]=</span>
                     <span class="separator">| </span>
-                    <span class="white">user@annasite: ~/homepage</span>
+                    <span class="white">user@website: ~/homepage</span>
                 </div>
                 <div id="statusright">
                     <span class="yellow"
@@ -36,8 +36,78 @@
                 </div>
             </div>
             <div id="main">
+                <div id="too-small">
+                    Hi there! This website is designed to be viewed on screens
+                    at least 295px wide (yours is
+                    <span id="screen-width"></span>). Please rotate your device
+                    or try viewing this site on a different screen.
+                </div>
                 <div id="left">
-                    <div class="window"></div>
+                    <div class="window mainwindow">
+                        <span class="green">user@website</span>:<span
+                            class="blue"
+                            >~/homepage</span
+                        >
+                        $ ./about<br /><br />
+                        <center>
+                            <img src="KawaiiLogo.png" id="kawaii" />
+                            <h1>Hi there 👋</h1>
+                        </center>
+                        Welcome to my little corner of the internet! I like
+                        programming, Linux (clearly), gamedev, and playing
+                        Minecraft (my MacBook won't run any other games :P).
+                        <br /><br />
+                        Here are some projects that I'm currently working on:
+                        <ul>
+                            <li>
+                                <strong><a href="#">this website</a></strong> -
+                                do I need to explain this? (<a
+                                    href="https://github.com/annaxiomm/annaxiomm.github.io"
+                                    >github</a
+                                >)
+                            </li>
+                            <li>
+                                <strong
+                                    ><a
+                                        href="https://annaxiomm.github.io/plustwo"
+                                        >plustwo</a
+                                    ></strong
+                                >
+                                - a minimal, easy-to-use speedsolving timer (<a
+                                    href="https://github.com/annaxiomm/plustwo"
+                                    >github</a
+                                >)
+                            </li>
+                            <li>
+                                <strong>torque</strong> - a really bad
+                                physics-based sandbox game
+                            </li>
+                        </ul>
+                        <br />
+                        I mainly use Godot for game dev, typescript + HTML +
+                        vite for web dev, and rust for anything else but I like
+                        to try everything so I have some experience in a lot of
+                        languages.
+                        <br /><br />
+                        IRL I like hiking, playing field hockey, surfing,
+                        listening to music, playing guitar, and doing a bit of
+                        speedcubing.
+                        <br /><br />
+                        <strong>Useful Links</strong>
+                        <ul>
+                            <li>
+                                <a href="https://github.com/annaxiomm"
+                                    >My GitHub</a
+                                >
+                            </li>
+                            <li>
+                                <a
+                                    href="https://github.com/annaxiomm/annaxiomm.github.io"
+                                    >This website's source</a
+                                >
+                            </li>
+                        </ul>
+                    </div>
                 </div>
                 <div id="right">
                     <div class="window nf">
@@ -80,7 +150,23 @@
                         ><span class="turqbg">&nbsp;&nbsp;&nbsp;</span
                         ><span class="whitebg">&nbsp;&nbsp;&nbsp;</span>
                     </div>
-                    <div class="window"></div>
+                    <div class="window fortune">
+                        <span class="green">user@website</span>:<span
+                            class="blue"
+                            >~/homepage</span
+                        >
+                        $ fortune
+                        <br />
+                        <br />
+                        <span id="fortune"></span>
+                        <br />
+                        <br />
+                        <span class="green">user@website</span>:<span
+                            class="blue"
+                            >~/homepage</span
+                        >
+                        $
+                    </div>
                 </div>
             </div>
         </div>
