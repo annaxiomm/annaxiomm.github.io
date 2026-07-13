@@ -93,7 +93,7 @@ function updateClock() {
   var time = "";
   var date = new Date();
 
-  time = `${date.getDay()}/${date.getMonth()}/${date.getFullYear()} ${date.getHours()}:${date.getMinutes()}`;
+  time = `${date.getDate()}/${date.getMonth() + 1}/${date.getFullYear()} ${date.getHours()}:${date.getMinutes()}`;
   var secs = date.getSeconds();
   var secs_formatted;
   if (secs <= 9) {
